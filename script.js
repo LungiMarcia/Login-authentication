@@ -59,6 +59,6 @@ document
     document.getElementById("message").innerHTML = loginResult.message;
     if (loginResult.success) {
       // Redirect to secured page
-      window.location.href = "secure-page/secured_page.html";
+      window.location.href = "secured-page/secured_page.html";
     }
   });
