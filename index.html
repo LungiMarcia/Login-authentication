@@ -13,38 +13,66 @@
     <title>Login-authentication</title>
   </head>
   <body>
-    <header>
-      <h2>Login Authentication</h2>
-    </header>
-    <main>
-      <h2>User Registration</h2>
-      <form id="registrationForm">
-        <label for="regUsername">Username</label>
-        <input type="text" id="regUsername" name="regUsername" required />
-        <label for="regPassword">Password</label>
-        <input type="password" id="regPassword" name="regPassword" required />
-        <input type="submit" value="Register" />
-      </form>
-
-      <h2>User Login</h2>
-      <form id="loginForm">
-        <label for="username">Username</label>
-        <input type="text" id="username" name="username" required />
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" required />
-        <input type="submit" value="Login" />
-      </form>
-
-      <div id="message"></div>
-    </main>
-    <footer>
-      <p>
-        This project was coded by
-        <a href="https://github.com/LungiMarcia" target="_blank"
-          >Lungile Simelane</a
-        >
-        and hosted on <a href="  " tagert="_blank">Netlify</a>
-      </p>
-    </footer>
+    <div class="Login-authentication">
+      <header>
+        <h2>Login Authentication</h2>
+      </header>
+      <main>
+        <div class="registrationForm">
+          <h2>User Registration</h2>
+          <form id="registrationForm">
+            <label for="regUsername">Username</label>
+            <input
+              type="text"
+              id="regUsername"
+              name="regUsername"
+              class="input"
+              required
+            />
+            <label for="regPassword">Password</label>
+            <input
+              type="password"
+              id="regPassword"
+              name="regPassword"
+              class="input"
+              required
+            />
+            <input type="submit" value="Register" class="submit" />
+          </form>
+        </div>
+        <div class="loginForm">
+          <h2>User Login</h2>
+          <form id="loginForm">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              class="input"
+              required
+            />
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              class="input"
+              required
+            />
+            <input type="submit" value="Login" class="submit" />
+          </form>
+        </div>
+        <div id="message"></div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="https://github.com/LungiMarcia" target="_blank"
+            >Lungile Simelane</a
+          >
+          and hosted on <a href="  " tagert="_blank">Netlify</a>
+        </p>
+      </footer>
+    </div>
   </body>
 </html>

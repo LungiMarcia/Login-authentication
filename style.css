@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: lightslategrey;
+}
+
+.Login-authentication {
+  background: whitesmoke;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 16px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main {
+  line-height: 40px;
+}
+
+.registrationForm {
+  margin-bottom: 30px;
+}
+
+.loginForm {
+  margin-bottom: 30px;
+}
+
+.input {
+  font-size: 16px;
+  border: 1px solid lightslategrey;
+  border-radius: 6px;
+  width: 30%;
+  padding: 10px 20px;
+}
+
+.submit {
+  font-size: 16px;
+  color: #fff;
+  background: rgb(66, 142, 66);
+  border: 1px solid lightslategrey;
+  border-radius: 6px;
+  padding: 10px 20px;
+  margin-left: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: teal;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px solid lightslategrey;
+  padding-top: 20px;
+}
